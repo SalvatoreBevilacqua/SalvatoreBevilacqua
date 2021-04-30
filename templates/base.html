@@ -31,10 +31,16 @@
 
     <title>Salvatore Bevilacqua {% block extra_title %}{% endblock %}</title>
     <!-- Favicon -->
-    <link rel="icon"href="{% static 'favicon.ico' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
   </head>
   <body>
-    <header class="container-fluid fixed-top"></header>
+    <header class="container-fluid fixed-top">
+        <div class="row" style="background-color: #FFFFFF;">
+            <!-- Navbar -->
+            {% include 'includes/navbar.html' %}  
+        </div>
+    </header>
 
     {% if messages %}
         <div class="message-container"></div>
