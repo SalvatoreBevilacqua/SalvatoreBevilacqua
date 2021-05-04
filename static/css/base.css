@@ -1,5 +1,10 @@
 body {
-    /* padding-top: 100px; */
+    background-color: aqua;
+}
+
+.navbar-brand {
+    background-color: whitesmoke;
+    border-bottom-right-radius: 50%;
 }
 
 /* fixed top navbar only on medium and up */
