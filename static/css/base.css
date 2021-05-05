@@ -3,14 +3,10 @@ body {
 }
 
 .navbar-brand {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     border-bottom-right-radius: 50%;
-}
-
-.navbar-brand {
     padding: 5px 15px 15px 5px;
 }
-
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
