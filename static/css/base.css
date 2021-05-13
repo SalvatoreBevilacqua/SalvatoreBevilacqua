@@ -1,11 +1,17 @@
 body {
-    background: linear-gradient(to top left, #ff3a3a, #8de664);
+    /* <!-- TO BE FIXED --> */
+    /* background: linear-gradient(to top left, #ff3a3a, #8de664); */
+    background-color: #8f8f8f;
 }
 
 .navbar-brand {
     background-color: #ffffff;
     border-bottom-right-radius: 50%;
     padding: 5px 15px 15px 5px;
+}
+
+.contain {
+    object-fit: contain;
 }
 
 /* fixed top navbar only on medium and up */
@@ -19,40 +25,9 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 30px;
     }
 }
 
 /*-----------------------------------------------Footer */
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  padding: 0;
-}
-
-.social-links {
-    padding: 10px;
-    margin-bottom: 0;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 4px;
-    font-size: 20px;
-    line-height: 10px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
