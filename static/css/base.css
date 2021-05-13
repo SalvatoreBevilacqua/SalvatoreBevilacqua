@@ -31,3 +31,21 @@ body {
 
 /*-----------------------------------------------Footer */
 
+.btn-link:hover,
+.btn-link:active{
+    background-color: #3b5998;
+    color: #ffffff !important; 
+}
+
+/* Facebook */
+background-color: #3b5998
+/* Twitter */
+background-color: #55acee
+/* Google */
+background-color: #dd4b39
+/* Instagram */
+background-color: #ac2bac
+/* Linkedin */
+background-color: #0082ca
+/* Github */
+background-color: #333333
