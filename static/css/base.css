@@ -15,7 +15,7 @@ body {
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -27,7 +27,7 @@ body {
     .header-container {
         padding-top: 30px;
     }
-}
+} */
 
 /*-----------------------------------------------Footer */
 
