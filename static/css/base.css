@@ -13,8 +13,12 @@ body {
 .cssnavb {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.cssnavb:hover {
+    color: red;
 }
 
 /*-----------------------------------------------Footer */
@@ -72,6 +76,9 @@ body {
     color: #FFFFFF !important;
     border-radius: 50%;
 }
+
+/*-----------------------------------------------Scrollbar */
+
 
 /*-----------------------------------------------Index */
 
