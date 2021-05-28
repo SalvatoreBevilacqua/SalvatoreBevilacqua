@@ -1,8 +1,15 @@
+/* 
+font-family: 'Open Sans', sans-serif; for Paragraphs
+font-family: 'Roboto', sans-serif; for Title
+*/
+
 body {
     /* <!-- TO BE FIXED --> */
     /* background: linear-gradient(to top left, #ff3a3a, #8de664); */
     background-color: #ffffff;
 }
+
+/*-----------------------------------------------Navbar */
 
 .navbar-brand {
     background-color: #be0027;
@@ -10,14 +17,7 @@ body {
     padding: 5px 15px 15px 5px;
 }
 
-.fitimg {
-    text-align: center;
-    object-fit: contain;
-}
 
-.fittext {
-    text-align:justify;
-}
 
 /*-----------------------------------------------Footer */
 
@@ -73,4 +73,20 @@ body {
     background-color: #333333;
     color: #FFFFFF !important;
     border-radius: 50%;
+}
+
+/*-----------------------------------------------Index */
+
+.csstitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.csstext {
+    text-align:justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cssimg {
+    text-align: center;
+    object-fit: contain;
 }
