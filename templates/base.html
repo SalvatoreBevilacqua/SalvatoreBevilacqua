@@ -24,7 +24,7 @@
     {% endblock %}
 
     {% block corejs %}
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/d6baceb912.js" crossorigin="anonymous"></script>
@@ -57,6 +57,35 @@
     {% endblock %}
 
     {% block postloadjs %}
+        <!-- <a id="button"></a>
+        <script>
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+          if ($(window).scrollTop() > 100) {
+            btn.addClass('show');
+          } else {
+            btn.removeClass('show');
+          }
+        });
+
+        btn.on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({scrollTop:0}, '300');
+        });
+        </script> -->
+        <!-- Up Arrow -->
+        <div class="btt-button shadow-sm border border-black">
+            <a class="btt-link d-flex h-100">
+                <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+            </a>	
+        </div>
+        {{ block.super }}
+        <script type="text/javascript">
+            $('.btt-link').click(function(e) {
+                window.scrollTo(0,0)
+            })
+        </script>
     {% endblock %}
 
     {% block footer %}
@@ -67,6 +96,5 @@
             </div> 
         </footer>
     {% endblock %}
-    
   </body>
 </html>

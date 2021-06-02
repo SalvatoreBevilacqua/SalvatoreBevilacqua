@@ -1,18 +1,11 @@
-/* 
-font-family: 'Open Sans', sans-serif; for Paragraphs
-font-family: 'Roboto', sans-serif; for Title
-*/
-
 body {
-    /* <!-- TO BE FIXED --> */
-    /* background: linear-gradient(to top left, #ff3a3a, #8de664); */
-    background-color: #ffffff;
+    background: linear-gradient(to top left, #ff3a3a, #8de664);
 }
 
 /*-----------------------------------------------Navbar */
 
 .navbar-brand {
-    background-color: #be0027;
+    background-color: #ffffff;
     border-bottom-right-radius: 50%;
     padding: 5px 15px 15px 5px;
 }
@@ -20,8 +13,58 @@ body {
 .cssnavb {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+/* to be modified */
+.cssnavb:hover {
+    color: red;
+}
+
+/*-----------------------------------------------Mobile~Burger Navbar */
+
+
+/*-----------------------------------------------Scrollbar */
+
+
+/*-----------------------------------------------Up Arrow */
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*-----------------------------------------------Footer */
