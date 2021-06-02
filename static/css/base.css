@@ -30,6 +30,7 @@ body {
 
 /*-----------------------------------------------Up Arrow */
 
+/* to be modified */
 #button {
   display: inline-block;
   background-color: #FF9800;
@@ -67,19 +68,9 @@ body {
   visibility: visible;
 }
 
-/* to be modified */
 .cssnavb:hover {
     color: red;
 }
-
-/*-----------------------------------------------Mobile~Burger Navbar */
-
-
-/*-----------------------------------------------Scrollbar */
-
-
-/*-----------------------------------------------Up Arrow */
-
 
 /*-----------------------------------------------Footer */
 
