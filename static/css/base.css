@@ -15,6 +15,7 @@ body {
     color: black;
     font-weight: 500px;
     font-size: 30px;
+<<<<<<< HEAD
 }
 
 /* to be modified */
@@ -65,7 +66,23 @@ body {
 #button.show {
   opacity: 1;
   visibility: visible;
+=======
+>>>>>>> 9114589c3478d2245f11cff49aabe3ae612bd2f9
 }
+
+/* to be modified */
+.cssnavb:hover {
+    color: red;
+}
+
+/*-----------------------------------------------Mobile~Burger Navbar */
+
+
+/*-----------------------------------------------Scrollbar */
+
+
+/*-----------------------------------------------Up Arrow */
+
 
 /*-----------------------------------------------Footer */
 
