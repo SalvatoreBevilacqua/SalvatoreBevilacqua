@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to top left, #FAC2A6, #54F3F5);
+    background: linear-gradient(to top left, #D48459, #54F3F5);
 }
 
 /*-----------------------------------------------Navbar */
@@ -81,7 +81,7 @@ body {
 /*-----------------------------------------------Footer */
 
 .socialink {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     color: #000000;
     border-radius: 50%;
 }
