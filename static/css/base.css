@@ -18,8 +18,42 @@ body {
 }
 
 /* to be modified */
-.cssnavb:hover {
-    color: red;
+ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+
+p.under_p:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 37px;
+  width: 100%;
+  border-bottom: 4px solid;
+  margin-top: 10px;
+  opacity: 0;
+  color: #AA6A47;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+p.under_p:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 /*-----------------------------------------------Mobile~Burger Navbar */
