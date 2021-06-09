@@ -60,6 +60,21 @@ p.under_p:hover:after {
 
 /*-----------------------------------------------Scrollbar */
 
+.sc2::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+.sc2::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sc2::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #54F3F5, #D48459);
+  border-radius: 10px;
+	-webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
 
 /*-----------------------------------------------Up Arrow */
 
@@ -79,6 +94,7 @@ p.under_p:hover:after {
   visibility: hidden;
   z-index: 1000;
 }
+
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -88,13 +104,16 @@ p.under_p:hover:after {
   line-height: 50px;
   color: #000;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #369B9D;
 }
+
 #button:active {
   background-color: #369B9D;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;
