@@ -8,11 +8,11 @@ body {
     background-color: #ffffff;
     border-bottom-right-radius: 50%;
     padding: 6px 15px 15px 10px;
-} */
+}
 
-/* .navbar {
+.navbar {
     height: 100px;
-} */
+}
 
 .cssnavb {
     font-family: 'Roboto', sans-serif;
@@ -57,7 +57,7 @@ p.under_p:hover:after {
   opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
+} */
 
 /*-----------------------------------------------Mobile~Burger Navbar */
 
