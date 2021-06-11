@@ -10,12 +10,12 @@ body {
     padding: 21px 15px 35px 10px;
 }
 
-/* .cssnavb {
+.cssnavb {
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 500px;
     font-size: 30px;
-} */
+}
 
 ul { 
   margin: 150px auto 0; 
@@ -26,14 +26,12 @@ ul {
   text-align: center;
 }
 
-/* unnecessary 
 li { 
   display: table-cell; 
   position: relative; 
-  padding: 15px 0;
-} */
+}
 
-/* p.under_p:after {
+p.under_p:after {
   content: '';
   position: absolute;
   left: 0;
@@ -48,13 +46,20 @@ li {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
-} */
+}
 
-/* p.under_p:hover:after {
+p.under_p:hover:after {
   opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-} */
+    &.hover-3 {
+            &:before {
+            left: 50%;
+            }
+            &:after {
+            right: 50%;
+            }
+}
 
 /*-----------------------------------------------Mobile~Burger Navbar */
 

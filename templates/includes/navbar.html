@@ -55,13 +55,25 @@
     <!-- Links -->
     <ul class="navbar-nav mr-auto list-inline list-unstyled text-center text-lg-center my-0">
       <li class="nav-item active">
-        <a class="nav-link" href="{% url 'home' %}">Home</a>
+        <a class="nav-link" href="{% url 'home' %}" id="user-options" aria-haspopup="true" aria-expanded="false">
+            <div class="text-center">
+                <p class="my-0 under_p cssnavb">Home</p>
+            </div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{% url 'portfolio' %}">Portfolio</a>
+        <a class="nav-link" href="{% url 'portfolio' %}" id="user-options" aria-haspopup="true" aria-expanded="false">
+            <div class="text-center">
+               <p class="my-0 under_p cssnavb">Portfolio</p>
+            </div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{% url 'contactme' %}">Contact Me</a>
+        <a class="nav-link" href="{% url 'contactme' %}" id="user-options" aria-haspopup="true" aria-expanded="false">
+            <div class="text-center">
+                <p class="my-0 under_p cssnavb">Contact Me</p>
+            </div>
+        </a>
       </li>
 
     </ul>
