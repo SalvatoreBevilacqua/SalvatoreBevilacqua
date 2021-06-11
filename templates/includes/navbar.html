@@ -33,10 +33,15 @@
 </div> -->
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-md navbar-dark primary-color">
+<nav class="navbar navbar-expand-md navbar-light" style="padding: 0px 14px 15px 0px;">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <div class="my-auto py-lg-0" style="padding-left: 0;">
+      <a href="{% url 'home' %}" class="navbar-brand padding-left-0">
+          <img src="media/SB.jpg" alt="logo" style="max-height: 70px;">
+      </a>
+  </div>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -48,21 +53,16 @@
   <div class="collapse navbar-collapse" id="basicExampleNav">
 
     <!-- Links -->
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto list-inline list-unstyled text-center text-lg-center my-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="{% url 'home' %}">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="{% url 'portfolio' %}">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="{% url 'contactme' %}">Contact Me</a>
       </li>
 
     </ul>
-    <!-- Links -->
-
-  <!-- Collapsible content -->
-
 </nav>
-<!--/.Navbar-->
