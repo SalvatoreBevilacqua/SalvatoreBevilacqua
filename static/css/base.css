@@ -1,8 +1,9 @@
 body {
-    background: linear-gradient(to top left, #D48459, #54F3F5);
+    background: rgb(185, 116, 79);
+    /* background: linear-gradient(to top left, #D48459, #54F3F5); */
 }
 
-/*-----------------------------------------------Navbar */
+/*-----------------------------------------------Navbar & Mobile/Burger */
 
 .navbar-brand {
     background-color: #ffffff;
@@ -19,11 +20,8 @@ body {
 
 ul { 
   margin: 150px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  width: 600px;
-  text-align: center;
+  padding: 0;
+  width: 460px;
 }
 
 li { 
@@ -41,7 +39,7 @@ p.under_p:after {
   border-bottom: 4px solid;
   margin-top: 10px;
   opacity: 0;
-  color: #AA6A47;
+  color: #54F3F5;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);
@@ -52,16 +50,7 @@ p.under_p:hover:after {
   opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-    &.hover-3 {
-            &:before {
-            left: 50%;
-            }
-            &:after {
-            right: 50%;
-            }
 }
-
-/*-----------------------------------------------Mobile~Burger Navbar */
 
 
 /*-----------------------------------------------Scrollbar */
@@ -77,10 +66,14 @@ p.under_p:hover:after {
 }
 
 .sc2::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(45deg, #54F3F5, #D48459);
+  background-image: linear-gradient(45deg, rgba(93, 109, 109, 0.884), rgba(116, 75, 53, 0.842));
   border-radius: 10px;
   -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
           box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+
+.sc2::-webkit-scrollbar-thumb:hover {
+    background: rgba(13, 48, 102, 0.712);
 }
 
 /*-----------------------------------------------Up Arrow */
@@ -129,7 +122,6 @@ p.under_p:hover:after {
 /*-----------------------------------------------Footer */
 
 .socialink {
-    /* background-color: #ffffff; */
     color: #000000;
     border-radius: 50%;
 }
