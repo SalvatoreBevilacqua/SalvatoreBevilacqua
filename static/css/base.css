@@ -1,6 +1,5 @@
 body {
-    background: rgb(185, 116, 79);
-    /* background: linear-gradient(to top left, #D48459, #54F3F5); */
+    background: rgb(94, 236, 247);
 }
 
 /*-----------------------------------------------Navbar & Mobile/Burger */
@@ -39,7 +38,7 @@ p.under_p:after {
   border-bottom: 4px solid;
   margin-top: 10px;
   opacity: 0;
-  color: #54F3F5;
+  color: rgb(252, 123, 18);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);
@@ -73,7 +72,7 @@ p.under_p:hover:after {
 }
 
 .sc2::-webkit-scrollbar-thumb:hover {
-    background: rgba(13, 48, 102, 0.712);
+    background: rgb(252, 123, 18);
 }
 
 /*-----------------------------------------------Up Arrow */
