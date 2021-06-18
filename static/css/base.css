@@ -5,7 +5,7 @@ body {
 /*-----------------------------------------------Navbar & Mobile/Burger */
 
 .navbar{
-    padding: 0px 80px 0px 0px; 
+    padding: 0px 15px 0px 0px; 
     margin: 0px 0px 24px 0px;
 }
 
@@ -190,11 +190,16 @@ p.under_p:hover:after {
 }
 
 .cssimg {
-    text-align: center;
-    object-fit: contain;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*-----------------------------------------------Portfolio */
+
+
+
+/*---------------------Swiper */
 
 .swiper-container {
     width: 100%;
@@ -231,4 +236,9 @@ p.under_p:hover:after {
 .swiper-container {
     margin-left: auto;
     margin-right: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    color: #000 !important;
 }
