@@ -199,7 +199,23 @@ p.under_p:hover:after {
 
 /*---------------------Knowledge Bar Section */
 
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(180, 180, 180);
+  border-radius: 50%;
+  display: inline-block;
+}
 
+.checked {
+  color: orange;
+}
+
+.fab {
+    /* position:absolute;  */
+    left:-500px; 
+    top:30px;
+}
 
 /*---------------------Swiper */
 
