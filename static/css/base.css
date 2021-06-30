@@ -22,13 +22,13 @@ body {
     font-size: 30px;
 }
 
-ul { 
+.ulnavbar { 
   margin: 150px auto 0; 
   padding: 0;
   width: 460px;
 }
 
-li { 
+.linavbar { 
   display: table-cell; 
   position: relative; 
 }
@@ -259,4 +259,10 @@ p.under_p:hover:after {
 .swiper-button-next,
 .swiper-button-prev{
     color: #000 !important;
+}
+
+/*-----------------------------------------------Contact Me */
+
+.clist {
+    list-style-type: none
 }
