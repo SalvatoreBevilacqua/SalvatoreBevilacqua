@@ -15,20 +15,67 @@
         <div class="col-12 col-md-6 my-auto">
             <ul class="list-group">
                 <li class="clist">
-                    <i class="fas fa-map-marker-alt mt-2">San Francisco, CA 94126, USA</i>
+                    <i class="fas fa-map-marker-alt mt-2"></i>
+                    <div class="">San Francisco, CA 94126, USA</div>
                 </li>
                 <li class="clist">
-                    <i class="fas fa-phone mt-2">+ 01 234 567 89</i>
+                    <i class="fas fa-phone mt-2"></i>
+                    <div>+ 01 234 567 89</div>
                 </li>
                 <li class="clist">
-                    <i class="fas fa-envelope mt-2">contact@mdbootstrap.com</i>
+                    <i class="fas fa-envelope mt-2"></i>
+                    <div>contact@mdbootstrap.com</div>
                 </li>
             </ul>
         </div>
         <div class="col-12 col-md-6 my-auto">
-            <p class="text-black csstext">
-                Odio id odi Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum iure explicabo expedita molestiae maxime consequatur enim excepturi est animi, consequuntur id, quo assumenda aut reprehenderit dolorum quaerat? Et, ut libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa ex, soluta recusandae blanditiis necessitatibus ab? Animi ipsa blanditiis cupiditate officiis fugit deleniti placeat minus, quae odit incidunt facilis itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quas debitis rem asperiores commodi sed facere fuga, obcaecati quod laboriosam libero nulla quaerat sit aperiam modi praesentium laborum amet nisi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis est ullam molestiae esse pariatur tempora aut ex atque sunt ut quis, aliquid temporibus accusamus rem amet nesciunt officiis voluptatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit saepe sequi culpa, voluptate minima commodi aliquid dolorum exercitationem. Voluptatum laboriosam sint culpa labore, recusandae consectetur ad nisi optio ratione doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, cupiditate. Ipsum iure tenetur magnam perspiciatis adipisci, fugiat consectetur dolorem molestiae deserunt, aperiam nobis nesciunt, odit ratione hic illum error sequi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, inventore sunt asperiores eum, repellat consequatur nisi exercitationem sit veniam odit, ullam nam in accusantium. Provident doloribus asperiores sint labore qui.
-            </p>
+            <!-- Div Formula  -->
+            <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required />
+                        <label>Name</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required />
+                        <label>Email</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required />
+                        <label>Subject</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea required></textarea>
+                        <label>Message</label>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="btn-lrg submit-btn">Send Message</div>
+                </div>
+            </div>
+            
+            <!-- Form Formula -->
+            <form role="form" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" maxlength="70" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" maxlength="70" required>
+                </div>
+                <div class="form-group">
+                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="300" rows="7"></textarea>                
+                </div>
+                <button type="button" id="submit" name="submit" class="btn btn-m btn-secondary">Submit Form</button>
+            </form>
         </div>
     </div>
 </div>
